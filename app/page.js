@@ -1,4 +1,3 @@
-import Image from "next/image";
 import HeroArea from "@/components/HeroArea";
 import About from "@/components/About";
 import JobExperince from "@/components/JobExperince";

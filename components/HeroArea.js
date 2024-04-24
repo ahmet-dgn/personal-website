@@ -3,7 +3,7 @@ import { useState } from "react";
 import { Dialog } from "@headlessui/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 import Link from "next/link";
-import Container from "@/ui/container";
+import Container from "./ui/container";
 const navigation = [
   { name: "Home ", href: "/" },
   { name: "About", href: "#about" },
