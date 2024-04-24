@@ -1,9 +1,9 @@
 import Image from "next/image";
-import Container from "./ui/container";
+import CustomContainer from "./ui/CustomContainer";
 
 export default function About() {
   return (
-    <Container>
+    <CustomContainer>
       <div
         className="justify-center flex flex-col items-center lg:flex-row py-24  gap-16 min-h-[1000px]"
         id="about"
@@ -134,6 +134,6 @@ export default function About() {
           </div>
         </div>
       </div>
-    </Container>
+    </CustomContainer>
   );
 }

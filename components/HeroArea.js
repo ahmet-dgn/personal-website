@@ -3,7 +3,8 @@ import { useState } from "react";
 import { Dialog } from "@headlessui/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 import Link from "next/link";
-import Container from "./ui/container";
+import CustomContainer from "./ui/Container";
+
 const navigation = [
   { name: "Home ", href: "/" },
   { name: "About", href: "#about" },
@@ -41,7 +42,7 @@ export default function HeroArea() {
         />
       </svg>
       <header className="absolute inset-x-0 top-0 z-50">
-        <Container>
+        <CustomContainer>
           <nav
             className="flex items-center justify-between p-6 lg:px-8"
             aria-label="Global"
@@ -132,7 +133,7 @@ export default function HeroArea() {
               </div>
             </Dialog.Panel>
           </Dialog>
-        </Container>
+        </CustomContainer>
       </header>
 
       <div className="relative isolate px-6 pt-14 lg:px-8">
