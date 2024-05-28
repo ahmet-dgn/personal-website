@@ -2,26 +2,26 @@ import Link from "next/link";
 export default function Footer() {
   const currentYear = new Date().getFullYear();
   return (
-    <footer class="bg-gray-900" id="contact">
-      <div class="mx-auto max-w-7xl overflow-hidden px-6 py-20 sm:py-24 lg:px-8">
-        <p className="text-center text-gray-200 text-lg font-bold">
+    <footer className="bg-gray-900" id="contact">
+      <div className="mx-auto max-w-7xl overflow-hidden px-6 py-20 sm:py-24 lg:px-8">
+        <p classNameName="text-center text-gray-200 text-lg font-bold">
           Contact Me
         </p>
         <Link
           target="_blank"
           href="mailto:ahmetcandgn@gmail.com"
-          className="text-center block text-gray-500 hover:text-gray-200 mt-4"
+          classNameName="text-center block text-gray-500 hover:text-gray-200 mt-4"
         >
           ahmetcandgn@gmail.com
         </Link>
-        <div class="mt-10 flex justify-center space-x-6">
+        <div className="mt-10 flex justify-center space-x-6">
           <Link
             href="https://github.com/ahmet-dgn"
-            class="text-gray-400 hover:text-gray-500"
+            className="text-gray-400 hover:text-gray-500"
           >
-            <span class="sr-only">GitHub</span>
+            <span className="sr-only">GitHub</span>
             <svg
-              class="h-6 w-6"
+              className="h-6 w-6"
               fill="currentColor"
               viewBox="0 0 24 24"
               aria-hidden="true"
@@ -36,9 +36,9 @@ export default function Footer() {
           <Link
             target="_blank"
             href="https://www.linkedin.com/in/ahmet-can-do%C4%9Fan-90829587/"
-            class="text-gray-400 hover:text-gray-500"
+            className="text-gray-400 hover:text-gray-500"
           >
-            <span class="sr-only">Linkedin</span>
+            <span className="sr-only">Linkedin</span>
             <svg
               width="20"
               height="21"
@@ -52,7 +52,7 @@ export default function Footer() {
             </svg>
           </Link>
         </div>
-        <p class="mt-10 text-center text-xs leading-5 text-gray-500">
+        <p className="mt-10 text-center text-xs leading-5 text-gray-500">
           © {currentYear} All rights reserved.
         </p>
       </div>
