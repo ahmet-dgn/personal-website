@@ -4,13 +4,13 @@ export default function Footer() {
   return (
     <footer className="bg-gray-900" id="contact">
       <div className="mx-auto max-w-7xl overflow-hidden px-6 py-20 sm:py-24 lg:px-8">
-        <p classNameName="text-center text-gray-200 text-lg font-bold">
+        <p className="text-center text-gray-200 text-lg font-bold ">
           Contact Me
         </p>
         <Link
           target="_blank"
           href="mailto:ahmetcandgn@gmail.com"
-          classNameName="text-center block text-gray-500 hover:text-gray-200 mt-4"
+          className="text-center block text-gray-500 hover:text-gray-200 mt-4 "
         >
           ahmetcandgn@gmail.com
         </Link>
