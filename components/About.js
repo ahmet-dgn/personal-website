@@ -34,7 +34,7 @@ export default function About() {
             My Skills
           </h3>
 
-          <div className="max-w-md  flex  flex-wrap">
+          <div className="max-w-md  flex  flex-wrap  mx-auto lg:mx-0 justify-center lg:justify-start">
             <Image
               src="/images/html-logo.svg"
               width={60}
