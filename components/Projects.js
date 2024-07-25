@@ -5,31 +5,39 @@ export default async function Projects() {
   const projects = JSON.parse(file);
 
   return (
-    <div className="bg-gray-200" id="projects">
+    <div className="bg-gray-100" id="projects">
       <div className="mx-auto max-w-7xl py-24 sm:px-6 sm:py-32 lg:px-8">
-        <h2 className="text-3xl mb-6 lg:text-center font-bold tracking-tight text-gray-900 sm:text-4xl max-w-[500px] mx-auto px-6 ">
+        <h2 className="text-3xl mb-6 text-center font-bold tracking-tight text-gray-900 sm:text-4xl max-w-[500px] mx-auto px-6 ">
           Projects
         </h2>
         {projects.map((project, index) => (
           <div
             key={index}
-            className="relative isolate overflow-hidden bg-gray-100 px-6 pt-16 shadow-2xl sm:rounded-3xl sm:px-16 md:pt-24 lg:flex lg:gap-x-20 lg:px-24 lg:pt-0 mb-8"
+            className="relative isolate overflow-hidden bg-white px-6 pt-16 shadow-2xl sm:rounded-3xl sm:px-16 md:pt-24 lg:flex lg:gap-x-20 lg:px-24 lg:pt-0 mb-8"
           >
-            <div className="mx-auto max-w-md text-left lg:mx-0 lg:flex-auto lg:py-32 ">
-              <h3 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
+            <div className="mx-auto max-w-md lg:text-left lg:mx-0 lg:flex-auto lg:py-24  text-center">
+              <span className="inline-flex items-center rounded-full bg-gray-100 px-3 py-1 text-xs font-medium text-gray-800 ring-1 ring-inset ring-gray-500/10 mb-2">
+                {project.badge}
+              </span>
+              <h3 className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
                 {project.title}
               </h3>
-              <p className="mt-6 text-gray-700">
+              <p className="mt-2 text-xl leading-8 text-gray-800">
+                {" "}
+                {project.subtitle}
+              </p>
+
+              <p className="max-w-xl text-base text-gray-700 mt-4 border-t border-gray-200 pt-4">
                 {project.desc}{" "}
                 {project.note ? (
-                  <span className="block  text-gray-700 mt-4">
+                  <span className="block text-gray-700 mt-2">
                     {project.note}
                   </span>
                 ) : (
                   ""
                 )}
               </p>
-              <div className="mt-10 flex items-center justify-start gap-x-6 ">
+              <div className="mt-6 flex items-center lg:justify-start justify-center gap-x-6 ">
                 {project.primaryBtn && (
                   <Link
                     target="_blank"
@@ -60,9 +68,9 @@ export default async function Projects() {
                 )}
               </div>
             </div>
-            <div className="relative mt-16 h-80 lg:mt-8">
+            <div className="relative mt-16 h-52 md:h-80 lg:mt-8">
               <img
-                className="absolute left-0 top-0 w-[45rem] max-w-none rounded-md bg-white/5 ring-1 ring-white/10 object-cover"
+                className="absolute left-0 top-0 lg:w-[45rem] lg:max-w-none max-w-full rounded-md bg-white/5 ring-1 ring-white/10 object-cover border border-gray-100"
                 src={project.img}
                 alt="App screenshot"
                 width={1824}

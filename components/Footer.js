@@ -10,7 +10,7 @@ export default function Footer() {
         <Link
           target="_blank"
           href="mailto:ahmetcandgn@gmail.com"
-          className="text-center block text-gray-500 hover:text-gray-200 mt-4 "
+          className="text-center block text-gray-400 hover:text-gray-500 mt-4 "
         >
           ahmetcandgn@gmail.com
         </Link>

@@ -56,7 +56,7 @@ export default function HeroArea() {
 
                 <div className="flex flex-col justify-center items-start ">
                   <span className="font-medium">AHMET</span>
-                  <span className="text-2xl font-bold tracking-wide">CAN </span>
+                  <span className="text-2xl tracking-wide">CAN </span>
                 </div>
               </Link>
             </div>
@@ -77,7 +77,7 @@ export default function HeroArea() {
                 <Link
                   key={item.name}
                   href={item.href}
-                  className="text-sm font-semibold leading-6 text-gray-900"
+                  className="text-sm font-semibold leading-6 text-gray-900 hover:text-gray-600"
                 >
                   {item.name}
                 </Link>
@@ -101,9 +101,7 @@ export default function HeroArea() {
 
                   <div className="flex flex-col justify-center items-start ">
                     <span className="font-medium">AHMET</span>
-                    <span className="text-2xl font-bold tracking-wide">
-                      CAN{" "}
-                    </span>
+                    <span className="text-2xl tracking-wide">CAN </span>
                   </div>
                 </Link>
                 <button

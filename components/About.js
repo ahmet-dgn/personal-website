@@ -19,10 +19,10 @@ export default function About() {
         </div>
 
         <div className="max-w-[500px] flex flex-col justify-center flex-1">
-          <h2 className="text-3xl mb-4 font-bold tracking-tight text-gray-900 sm:text-4xl">
+          <h2 className="text-3xl mb-4 font-bold tracking-tight text-gray-900 sm:text-4xl text-center lg:text-left">
             About Me
           </h2>
-          <p className=" leading-7 text-gray-600">
+          <p className=" leading-7 text-gray-600 text-center lg:text-left">
             I have a good knowledge of HTML, CSS, and JavaScript. Additionally,
             I have the skills to create UI/UX designs using Figma or Adobe XD,
             and I can faithfully convert designs into HTML and CSS with
@@ -30,7 +30,7 @@ export default function About() {
             Next.js. I am continuously learning and improving my knowledge of
             React and Next.js.
           </p>
-          <h3 className="text-xl font-medium mt-6   mb-4 tracking-tight text-gray-900 ">
+          <h3 className="text-xl font-medium mt-6   mb-4 tracking-tight text-gray-900 text-center lg:text-left">
             My Skills
           </h3>
 

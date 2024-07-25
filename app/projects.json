@@ -1,7 +1,18 @@
 [
   {
-    "title": "E-Commerce with Next.js (App Router)",
-    "desc": "This is a headless e-commerce project. The project was developed using Next.js and designed in a modular and reusable structure with React components.All data was fetched from a fake JSON server with the REST API. In this project, I used  React, Next.js, Tailwind, REST API and Git ",
+    "title": "Lainox Web Site",
+    "subtitle": "A headless Wordpress with Next.js",
+    "badge": "Client Project",
+    "desc": "This is a freelance project. In this project I designed the frontend with Rect-Next.js. All data is fetched from cms using Rest API. The CMS used is Wordpress. The site has search, filter and pagination features. In this project, I used  React, Next.js, Tailwind, Wordpress, REST API and Git ",
+    "primaryBtn": "Go to Website",
+    "primaryUrl": "https://www.lainoxturkiye.com",
+    "img": "/images/lainox.jpg"
+  },
+  {
+    "title": "E-Commerce with Next.js ",
+    "subtitle": "A headless e-commerce project",
+    "badge": "Personal Project",
+    "desc": " The project was developed using Next.js and designed in a modular and reusable structure with React components.All data was fetched from a fake JSON server with the REST API. In this project, I used  React, Next.js, Tailwind, REST API and Git ",
     "primaryBtn": "Live Demo",
     "primaryUrl": "https://nextjs-ecommerce-neon-nine.vercel.app",
     "secondaryBtn": "GitHub",
@@ -10,7 +21,9 @@
   },
   {
     "title": "Custom Shopify Theme",
-    "desc": "I built this Shopify theme from scratch. The theme supports JSON template and Shopify theme editor feature. In this project, I used HTML, CSS, Tailwind, Liquid, Shopify CLI, and Git. ",
+    "subtitle": "A Shopify theme from scratch",
+    "badge": "Personal Project",
+    "desc": "The theme supports JSON template and Shopify theme editor feature. In this project, I used HTML, CSS, Tailwind, Liquid, Shopify CLI, and Git. ",
     "note": "Password to view the store: 1234",
     "primaryBtn": "Live Demo",
     "primaryUrl": "https://ahs-theme-development-store.myshopify.com",
@@ -19,16 +32,9 @@
     "img": "/images/shopify-theme.png"
   },
   {
-    "title": "Headless Strapi CMS With Next.js (Multilang)",
-    "desc": "This is a corporate website project for a publishing house. Next.js was utilized for the frontend. It was internationalized using the i18n library to support multiple languages. Strapi used for CMS. All data was fetched using the REST API. In this project, I used HTML, CSS, React, Next.js, Tailwind, Strapi and Git",
-    "primaryBtn": "Live Demo",
-    "primaryUrl": "https://headless-cms.ahmetcandgn.com/tr",
-    "secondaryBtn": "GitHub",
-    "secondaryUrl": "https://github.com/ahmet-dgn/strapi-next-headless-cms",
-    "img": "/images/publishing_house.png"
-  },
-  {
     "title": "Figma UI Kit",
+    "subtitle": "UI Kit from scratch",
+    "badge": "Personal Project",
     "desc": "I designed and developed this user interface kit completely from scratch. It allows theme customization with the style settings included in the kit. ",
     "primaryBtn": "Figma",
     "primaryUrl": "https://www.figma.com/file/JHdshkZlkHr7bzZOdNAxH7/UI-KIT?type=design&node-id=0%3A1&mode=design&t=8ikE5Rt9f4rMJ4Zj-1",
@@ -36,7 +42,9 @@
   },
   {
     "title": "Coffee Shop Website",
-    "desc": "This is a coffee shop promotional website. The site design was created in Figma. Menu data was fetched from a separate file and displayed. In this project, I used HTML, CSS, React, Next.js, Figma, and Git. ",
+    "subtitle": "A coffee shop promotional website",
+    "badge": "Personal Project",
+    "desc": "The site design was created in Figma. Menu data was fetched from a separate file and displayed. In this project, I used HTML, CSS, React, Next.js, Figma, and Git. ",
     "primaryBtn": "Live Demo",
     "primaryUrl": "https://coffee-shop.ahmetcandgn.com/",
     "secondaryBtn": "GitHub",
