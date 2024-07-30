@@ -3,7 +3,7 @@
     "title": "Lainox Web Site",
     "subtitle": "A headless Wordpress with Next.js",
     "badge": "Client Project",
-    "desc": "This is a freelance project. In this project I designed the frontend with Rect-Next.js. All data is fetched from cms using Rest API. The CMS used is Wordpress. The site has search, filter and pagination features. In this project, I used  React, Next.js, Tailwind, Wordpress, REST API and Git ",
+    "desc": "This is a freelance project. In this project I designed the frontend with React-Next.js. All data is fetched from cms using Rest API. The CMS used is Wordpress. The site has search, filter and pagination features. In this project, I used  React, Next.js, Tailwind, Wordpress, REST API and Git ",
     "primaryBtn": "Go to Website",
     "primaryUrl": "https://www.lainoxturkiye.com",
     "img": "/images/lainox.jpg"
