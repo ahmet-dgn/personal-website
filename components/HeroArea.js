@@ -160,6 +160,7 @@ export default function HeroArea() {
             <div className="mt-10 flex items-center justify-center gap-x-6">
               <Link
                 href="https://github.com/ahmet-dgn"
+                target="_blank"
                 className="rounded-md bg-blue-800 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-blue-700 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600"
               >
                 GitHub
@@ -167,6 +168,7 @@ export default function HeroArea() {
               <Link
                 href="https://www.linkedin.com/in/ahmet-can-do%C4%9Fan-90829587/"
                 className="text-sm font-semibold leading-6 text-gray-900 hover:text-gray-700"
+                target="_blank"
               >
                 Linkedin <span aria-hidden="true">→</span>
               </Link>
