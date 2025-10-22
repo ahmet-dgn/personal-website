@@ -6,14 +6,14 @@ export default async function Projects() {
 
   return (
     <div className="bg-gray-100" id="projects">
-      <div className="mx-auto max-w-7xl py-24 sm:px-6 sm:py-32 lg:px-8">
+      <div className="mx-auto max-w-5xl py-24 sm:px-6 sm:py-32 lg:px-0">
         <h2 className="text-3xl mb-6 text-center font-bold tracking-tight text-gray-900 sm:text-4xl max-w-[500px] mx-auto px-6 ">
           Projects
         </h2>
         {projects.map((project, index) => (
           <div
             key={index}
-            className="relative isolate overflow-hidden bg-white px-6 pt-16 shadow-2xl sm:rounded-3xl sm:px-16 md:pt-24 lg:flex lg:gap-x-20 lg:px-24 lg:pt-0 mb-8"
+            className="relative isolate overflow-hidden bg-white px-6 pt-16 shadow-2xl sm:rounded-3xl sm:px-16 md:pt-24 lg:flex lg:gap-x-20 lg:px-16 lg:pt-0 mb-8"
           >
             <div className="mx-auto max-w-md lg:text-left lg:mx-0 lg:flex-auto lg:py-24  text-center">
               <span className="inline-flex items-center rounded-full bg-gray-100 px-3 py-1 text-xs font-medium text-gray-800 ring-1 ring-inset ring-gray-500/10 mb-2">

@@ -1,25 +1,5 @@
 [
   {
-    "title": "Lainox Web Site",
-    "subtitle": "A headless Wordpress with Next.js",
-    "badge": "Client Project",
-    "desc": "This is a freelance project. In this project I designed the frontend with React-Next.js. All data is fetched from cms using Rest API. The CMS used is Wordpress. The site has search, filter and pagination features. In this project, I used  React, Next.js, Tailwind, Wordpress, REST API and Git ",
-    "primaryBtn": "Go to Website",
-    "primaryUrl": "https://www.lainoxturkiye.com",
-    "img": "/images/lainox.jpg"
-  },
-  {
-    "title": "E-Commerce with Next.js ",
-    "subtitle": "A headless e-commerce project",
-    "badge": "Personal Project",
-    "desc": " The project was developed using Next.js and designed in a modular and reusable structure with React components.All data was fetched from a fake JSON server with the REST API. In this project, I used  React, Next.js, Tailwind, REST API and Git ",
-    "primaryBtn": "Live Demo",
-    "primaryUrl": "https://nextjs-ecommerce-neon-nine.vercel.app",
-    "secondaryBtn": "GitHub",
-    "secondaryUrl": "https://github.com/ahmet-dgn/nextjs-ecommerce",
-    "img": "/images/e-commerce-nextjs.png"
-  },
-  {
     "title": "Custom Shopify Theme",
     "subtitle": "A Shopify theme from scratch",
     "badge": "Personal Project",
@@ -40,6 +20,17 @@
     "primaryUrl": "https://www.figma.com/file/JHdshkZlkHr7bzZOdNAxH7/UI-KIT?type=design&node-id=0%3A1&mode=design&t=8ikE5Rt9f4rMJ4Zj-1",
     "img": "/images/figma-ui-kit.jpg"
   },
+  {
+    "title": "Lainox Web Site",
+    "subtitle": "A headless Wordpress with Next.js",
+    "badge": "Client Project",
+    "desc": "This is a freelance project. In this project I designed the frontend with React-Next.js. All data is fetched from cms using Rest API. The CMS used is Wordpress. The site has search, filter and pagination features. In this project, I used  React, Next.js, Tailwind, Wordpress, REST API and Git ",
+    "primaryBtn": "Go to Website",
+    "primaryUrl": "https://www.lainoxturkiye.com",
+    "img": "/images/lainox.jpg"
+  },
+
+
   {
     "title": "Coffee Shop Website",
     "subtitle": "A coffee shop promotional website",

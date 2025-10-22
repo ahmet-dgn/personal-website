@@ -4,10 +4,10 @@ import { Dialog } from "@headlessui/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 import Link from "next/link";
 import CustomContainer from "./ui/CustomContainer";
+import Image from "next/image";
 
 const navigation = [
   { name: "Home ", href: "/" },
-  { name: "About", href: "#about" },
   { name: "Experience", href: "#experience" },
   { name: "Projects", href: "#projects" },
   { name: "Contact", href: "#contact" },
@@ -147,34 +147,62 @@ export default function HeroArea() {
             }}
           />
         </div>
-        <div className="mx-auto max-w-2xl py-32 sm:py-48 lg:py-56">
-          <div className="text-center">
-            <h1 className="!leading-tight text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl ">
-              I’m a Front-End Developer based in Türkiye.
-            </h1>
-            <p className="mt-6 text-lg leading-8 text-gray-600">
-              My name is Ahmet Can Doğan. I specialize in building the frontend
-              of websites and web applications, ensuring they contribute to the
-              overall success of the product.
-            </p>
-            <div className="mt-10 flex items-center justify-center gap-x-6">
-              <Link
-                href="https://github.com/ahmet-dgn"
-                target="_blank"
-                className="rounded-md bg-blue-800 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-blue-700 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600"
-              >
-                GitHub
-              </Link>
-              <Link
-                href="https://www.linkedin.com/in/ahmet-can-do%C4%9Fan-90829587/"
-                className="text-sm font-semibold leading-6 text-gray-900 hover:text-gray-700"
-                target="_blank"
-              >
-                Linkedin <span aria-hidden="true">→</span>
-              </Link>
-            </div>
+        <CustomContainer>
+
+
+        <div className="max-w-5xl grid grid-cols-1 lg:grid-cols-2 gap-16 items-center py-32 sm:py-48 lg:py-56 mx-auto  w-full">
+          <div className="flex rounded-xl justify-center items-center max-w-[500px]  p-8 bg-gray-200  justify-self-center lg:justify-self-end">
+            <Image
+                src="/images/ahmetcandogan.jpeg"
+                alt="ahmet-can-dogan"
+                className="rounded-xl shadow-xl  "
+                width="400"
+                height="400"
+            />
           </div>
+
+            <div className="text-center lg:text-left max-w-[500px] justify-self-center lg:justify-self-start">
+              <h1 className="!leading-tight text-2xl font-bold tracking-tight text-gray-900 sm:text-4xl ">
+                Front-End Developer specializing in E-commerce & Shopify
+              </h1>
+              <p className="mt-6 text-md  text-gray-600">
+                I build modern web applications with React, Next.js, and Remix.js
+                with deep expertise in Shopify theme development, app creation,
+                and e-commerce solutions.
+              </p>
+              <p className="mt-4 text-md text-gray-600">
+                With a background in graphic design, I bring a designer's
+                perspective to creating performant, user-friendly applications.
+              </p>
+              <p className="mt-4 text-md text-gray-600">
+                5+ years experience | Based in Turkey | Fluent in English (C1)
+              </p>
+              <p className="mt-4 text-md text-gray-600">
+                Currently: Front-End Developer at Holly Palm
+              </p>
+
+
+              <div className="mt-6 flex items-center justify-center lg:justify-start gap-x-6">
+                <Link
+                    href="https://github.com/ahmet-dgn"
+                    target="_blank"
+                    className="rounded-md bg-blue-800 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-blue-700 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600"
+                >
+                  GitHub
+                </Link>
+                <Link
+                    href="https://www.linkedin.com/in/ahmet-can-do%C4%9Fan-90829587/"
+                    className="text-sm font-semibold leading-6 text-gray-900 hover:text-gray-700"
+                    target="_blank"
+                >
+                  Linkedin <span aria-hidden="true">→</span>
+                </Link>
+              </div>
+            </div>
+
+
         </div>
+        </CustomContainer>
         <div
           className="absolute inset-x-0 top-[calc(100%-13rem)] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[calc(100%-30rem)]"
           aria-hidden="true"
