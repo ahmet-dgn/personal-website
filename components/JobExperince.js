@@ -24,7 +24,7 @@ export default function JobExperince() {
     },
     {
       company: "Medicom",
-      position: "Front-End Developer & Project Coordinator Remote",
+      position: "Front-End Developer & Project Coordinator",
       period: "03/2019 - 01/2024",
       responsibilities: [
         "Developed e-commerce themes and custom features for online stores",
