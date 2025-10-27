@@ -5,10 +5,21 @@ export default function JobExperince() {
       position: "Front-End Developer (Shopify Specialist)",
       period: "09/2024 - Present",
       responsibilities: [
-        "Front-end developer for enterprise integration platform serving 50+ clients.",
-        "Built multi-tenant application with Next.js, React, and TypeScript.",
-        "Developed Shopify apps using Remix.js and custom themes with Liquid.",
-        "Technologies: Next.js, React, Remix.js, TypeScript, Shopify, Liquid, GraphQL"
+          "Front-end developer for enterprise integration platform serving 50+ clients",
+          "Built multi-tenant application with Next.js, React, and TypeScript",
+          {
+            main: "Developed multiple custom Shopify apps using Remix.js:",
+            sub: [
+              "Collection sorting optimizer for improved product discovery",
+              "Product favorites/wishlist system with customer integration", 
+              "Stock alert and discount notification platform",
+              "Cargo shipping add-on"
+            ]
+          },
+          "Created Shopify Functions for discount logic and cart transformations",
+          "Built Checkout UI Extensions and Admin Actions",
+          "Developed custom Shopify themes with Liquid templating",
+          "Technologies: Next.js, React, Remix.js, TypeScript, Shopify Functions, Shopify Extensions, Liquid, GraphQL, Shopify App Bridge"
       ]
     },
     {
@@ -67,7 +78,20 @@ export default function JobExperince() {
                   <div className={"w-full h-[0.5px] bg-white font-light"}></div>
                   <ul className="list-disc px-4 text-light">
                     {exp.responsibilities.map((resp, idx) => (
-                      <li key={idx}>{resp}</li>
+                      <li key={idx}>
+                        {typeof resp === 'string' ? (
+                          resp
+                        ) : (
+                          <>
+                            {resp.main}
+                            <ul className="list-disc pl-6 mt-1">
+                              {resp.sub.map((subItem, subIdx) => (
+                                <li key={subIdx}>{subItem}</li>
+                              ))}
+                            </ul>
+                          </>
+                        )}
+                      </li>
                     ))}
                   </ul>
                 </div>
