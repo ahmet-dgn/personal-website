@@ -70,13 +70,13 @@ export default function JobExperince() {
               {experiences.map((exp, index) => (
                 <div key={index} className="flex flex-col gap-2">
                   <div className={"flex flex-col md:flex-row md:justify-between "}>
-                    <p className="text-lg font-bold mb-2">
+                    <p className="text-base md:text-lg font-bold mb-2">
                       {exp.company} | {exp.position}
                     </p>
-                    <p>{exp.period}</p>
+                    <p className="text-base md:text-lg">{exp.period}</p>
                   </div>
                   <div className={"w-full h-[0.5px] bg-white font-light"}></div>
-                  <ul className="list-disc px-4 text-light">
+                  <ul className="list-disc px-4 text-light text-sm md:text-base">
                     {exp.responsibilities.map((resp, idx) => (
                       <li key={idx}>
                         {typeof resp === 'string' ? (
