@@ -61,11 +61,11 @@ export default function JobExperince() {
       id="experience"
     >
       <div className="mx-auto max-w-7xl px-6 lg:px-8 text-white">
-        <div className="flex flex-col justify-center items-center">
-          <h2 className="text-3xl mb-6 text-center font-bold tracking-tight  sm:text-4xl max-w-[500px] mx-auto ">
+        <div className="flex flex-col justify-center md:items-center">
+          <h2 className="text-2xl mb-6  text-left md:text-center md:mx-auto font-bold tracking-tight  md:text-4xl max-w-[500px] ">
             Work Experience
           </h2>
-          <div className="mx-auto  max-w-5xl   bg-white/10 py-16 px-8 rounded-xl w-full">
+          <div className="mx-auto  max-w-5xl   md:bg-white/10 md:py-16 md:px-8 rounded-xl w-full">
             <div className="flex flex-col gap-8">
               {experiences.map((exp, index) => (
                 <div key={index} className="flex flex-col gap-2">

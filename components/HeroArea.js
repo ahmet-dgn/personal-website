@@ -147,7 +147,7 @@ export default function HeroArea() {
             }}
           />
         </div>
-        <CustomContainer>
+
 
 
         <div className="max-w-5xl grid grid-cols-1 lg:grid-cols-2 gap-16 items-center py-32 sm:py-48 lg:py-56 mx-auto  w-full">
@@ -161,7 +161,7 @@ export default function HeroArea() {
             />
           </div>
 
-            <div className="text-center lg:text-left max-w-[500px] justify-self-center lg:justify-self-start">
+            <div className="text-left max-w-[500px] justify-self-center lg:justify-self-start">
               <h1 className="!leading-tight text-2xl font-bold tracking-tight text-gray-900 sm:text-4xl ">
                 Front-End Developer specializing in E-commerce & Shopify
               </h1>
@@ -182,7 +182,7 @@ export default function HeroArea() {
               </p>
 
 
-              <div className="mt-6 flex items-center justify-center lg:justify-start gap-x-6">
+              <div className="mt-6 flex items-center justify-start gap-x-6">
                 <Link
                     href="https://github.com/ahmet-dgn"
                     target="_blank"
@@ -202,7 +202,7 @@ export default function HeroArea() {
 
 
         </div>
-        </CustomContainer>
+
         <div
           className="absolute inset-x-0 top-[calc(100%-13rem)] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[calc(100%-30rem)]"
           aria-hidden="true"

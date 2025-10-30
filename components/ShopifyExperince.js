@@ -63,18 +63,18 @@ export default function ShopifyExperince() {
             id="experience"
         >
             <div className="mx-auto max-w-7xl px-6 lg:px-8 ">
-                <div className="flex flex-col justify-center items-center">
-                    <h2 className="text-3xl mb-6 text-center font-bold tracking-tight  md:text-4xl max-w-[500px] mx-auto ">
+                <div className="flex flex-col justify-center md:items-center">
+                    <h2 className="text-2xl mb-6  text-left md:text-center md:mx-auto font-bold tracking-tight  md:text-4xl max-w-[500px] ">
                         Shopify Apps & Extensions
                     </h2>
 
 
-                    <div className="mx-auto  max-w-5xl  border  py-16 px-8 rounded-xl w-full">
-                        <h3 className="text-lg mb-6 text-center font-semibold md:text-xl max-w-[500px] mx-auto">Custom Shopify Applications</h3>
+                    <div className="md:mx-auto  max-w-5xl      w-full">
+                        <h3 className="text-lg mb-6 text-left font-semibold  md:text-xl max-w-[500px] md:text-center md:mx-auto">Custom Shopify Applications</h3>
 
                         <div className="space-y-8">
                             {customApps.map((app, index) => (
-                                <div key={index} className={`border-l-4 ${app.borderColor} pl-6 text-center md:text-left`}>
+                                <div key={index} className={`bg-gray-100 p-6 rounded-lg  pl-6 text-left`}>
                                     <h4 className="text-base md:text-lg   font-semibold mb-2">{app.title}</h4>
                                     <p className="text-sm md:text-base text-gray-600 mb-2">{app.description}</p>
                                     <p className={`text-xs md:text-sm ${app.textColor} font-medium`}>Technologies: {app.tech}</p>
@@ -82,12 +82,12 @@ export default function ShopifyExperince() {
                             ))}
                         </div>
                     </div>
-                        <div className="mx-auto  max-w-5xl  border  py-16 px-8 rounded-xl w-full mt-6 ">
-                        <h3 className="text-lg mb-6 text-center font-semibold  md:text-xl max-w-[500px] mx-auto ">Shopify Functions & Extensions</h3>
+                        <div className="mx-auto  max-w-5xl      w-full mt-12 ">
+                        <h3 className="text-lg mb-6 text-left font-semibold  md:text-xl max-w-[500px] md:text-center md:mx-auto">Shopify Functions & Extensions</h3>
 
                         <div className="grid md:grid-cols-2 gap-6">
                             {extensionsAndFunctions.map((item, index) => (
-                                <div key={index} className="bg-gray-100 p-6 rounded-lg text-center md:text-left">
+                                <div key={index} className="bg-gray-100 p-6 rounded-lg text-left">
                                     <h4 className="text-base md:text-lg font-semibold mb-2">{item.title}</h4>
                                     <p className="text-sm md:text-base text-gray-600 mb-2">{item.description}</p>
                                     <p className={`text-xs md:text-sm ${item.textColor} font-medium`}>Technologies: {item.tech}</p>
